@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  text-align: center;
+  /* 가운데 정렬 */
+  margin-top: 28px;
+}
+
+.box {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.todosBox {
+  display: flex;
+  gap: 10px;
+  margin-left: 40px;
+}
+
+.todo {
+  width: 100px;
+  height: 100px;
+  border: 4px green solid;
+  padding: 10px;
+  border-radius: 10px;
+}
